@@ -48,8 +48,6 @@ table {
     width: 500px;
     height: 500px;
     border: 2px solid black;
-    grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(16,1fr);
     margin-top: 100px;
     margin-left: 100px;
     

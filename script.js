@@ -10,6 +10,9 @@ if(asksize>100)
     gridsize.textContent= "the size of your grid is "+(asksize*asksize);
 }
 const container = document.querySelector(".container")
+container.style.gridTemplateColumns=`repeat(${asksize}, 1fr)`;
+container.style.gridTemplateRows=`repeat(${asksize}, 1fr)`;
+
 for(let i=1;i<=gridlayout;i++)
 {
     const div = document.createElement("div")
