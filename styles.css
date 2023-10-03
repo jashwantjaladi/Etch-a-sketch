@@ -25,6 +25,16 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'RichEatinAllCaps';
+		background:
+		 radial-gradient(farthest-side at top left,
+		 rgba(174,255,216,.75),transparent),
+		 
+		 radial-gradient(farthest-side at bottom left,
+		 rgba(255,200,80,.75),transparent),
+		 radial-gradient(farthest-corner at bottom right,
+		 rgba(231,111,81,.75),transparent) #003b44;
+
 }
 ol, ul {
 	list-style: none;
@@ -47,13 +57,64 @@ table {
     display: grid;
     width: 500px;
     height: 500px;
-    border: 2px solid black;
+    border: 4px solid white;
     margin-top: 100px;
     margin-left: 100px;
     
 }
 .container div
 {
-    border: 1px solid black;
+    border: 2px solid white;
 }
+.appcontainer
+{
+	display: grid;
+	height: 60vh;
+	place-items: center;
 
+}
+h1{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: xx-large;
+	text-decoration: underline;
+	text-shadow: 2px 2px greenyellow;
+}
+.button-container
+{
+	display: flex;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+.reset
+{
+	font-family: 'RichEatinAllCaps';
+	font-weight: bold;
+	background-color: aquamarine;
+	padding: 20px;
+	border-radius: 50%;
+	border: 2px solid darkgreen;
+}
+.reset:hover
+{
+	background-color: chartreuse;
+	box-shadow: 5px 5px 5px  green;
+}
+.container
+{
+	-webkit-box-shadow: 0 0 5px 5px yellowgreen;
+    -moz-box-shadow: 0 0 5px 5px yellowgreen;
+    box-shadow: 0 0 5px 5px yellowgreen;
+}
+.gridsize
+{
+	padding-top: 20px;
+	padding-bottom: -50px;
+	font-size: x-large;
+	color: white;
+	text-shadow: 2px 2px yellowgreen;
+}

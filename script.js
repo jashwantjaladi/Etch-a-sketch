@@ -25,7 +25,7 @@ containeritem.forEach((item) =>
 {
     item.addEventListener("mouseover", function(e)
     {
-        item.style.cssText ="background-color : yellow"
+        item.style.cssText ="background-color : pink"
     })
 }
 
@@ -36,7 +36,7 @@ reset.addEventListener("click", function(e)
 {
     containeritem.forEach((item) =>
     {
-        item.style.cssText="background-color : white"
+        item.style.cssText="background-color : inherit"
     })
     
 })
